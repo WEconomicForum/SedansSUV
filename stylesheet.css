@@ -1,0 +1,131 @@
+.container {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 110px;
+  height: 550px;
+  width: 1000px;
+  text-decoration: none !important;
+  margin: auto;
+}
+
+.box {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  color: white;
+  text-align: left;
+  padding: 50px;
+}
+
+h1 {
+  font-family: "Big Shoulders Display", cursive;
+  font-size: 40px;
+  position: relative;
+  top: -30px;
+}
+
+h2 {
+  font-family: "Big Shoulders Display", cursive;
+  font-size: 40px;
+  position: relative;
+  top: -30px;
+}
+
+h3 {
+  font-family: "Big Shoulders Display", cursive;
+  font-size: 40px;
+  position: relative;
+  top: -30px;
+}
+
+p {
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 15px;
+  line-height: 30px;
+  color: hsla(0, 0%, 100%, 0.75);
+  position: relative;
+  top: -40px;
+}
+
+/**/
+
+.orange {
+  background-color: hsl(31, 77%, 52%);
+  border-radius: 10px 0px 0px 10px;
+}
+
+.blue {
+  background-color: hsl(184, 100%, 22%);
+}
+
+.green {
+  background-color: hsl(179, 100%, 13%);
+  border-radius: 0px 10px 10px 0px;
+}
+
+/**/
+
+.sedanssvg {
+  margin-bottom: 15px;
+  position: relative;
+  top: -30px;
+}
+
+.suvssvg {
+  margin-bottom: 15px;
+  position: relative;
+  top: -30px;
+}
+
+.luxurysvg {
+  margin-bottom: 15px;
+  position: relative;
+  top: -30px;
+}
+
+/**/
+
+.button1 {
+  width: 140px;
+  height: 40px;
+  cursor: pointer;
+  display: flex;
+  border-radius: 40px;
+  border: 3px solid;
+  border-color: hsla(0, 0%, 100%, 0.75);
+  color: transparent;
+  text-align: center;
+  justify-content: center;
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 14px;
+  align-items: center;
+  position: relative;
+  top: 40px;
+  background-color: white;
+  text-decoration: none;
+}
+
+.orange .button1 {
+  color: hsl(31, 77%, 52%);
+}
+
+.blue .button1 {
+  color: hsl(184, 100%, 22%);
+}
+
+.green .button1 {
+  color: hsl(179, 100%, 13%);
+}
+
+.blue .box .green .luxurysvg .orange .sedanssvg .suvssvg {
+  transform: translateY(-100px);
+}
+
+.button1:hover {
+  background-color: transparent;
+  color: white;
+  border-color: #ffffff;
+}
